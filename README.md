@@ -6,18 +6,18 @@
 
 <br>
 
-# Sistema Preditivo de Prevenção de Quebra e Sobrecarga - Sompo Seguros
+# Sompo Predict - Prevenção de Quebra e Sobrecarga 
 
-## Squad Solo (Desenvolvimento Individual)
+## Grupo 49
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://github.com/">Seu Nome Completo</a>
+- <a href="https://www.linkedin.com/in/guilherme-monteiro-tech/">Guilherme Monteiro Bitencourt (RM: 574151)</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/">Nicolly de Souza / Sabrina Otoni</a>
+- <a href="https://www.linkedin.com/in/sabrina-otoni-22525519b/">Sabrina Otoni</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/">Coordenação de Curso FIAP</a>
+- <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi</a>
 
 
 ## 📜 Descrição
