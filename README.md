@@ -66,8 +66,6 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
    pip install fastapi uvicorn pydantic pandas streamlit python-dotenv
 4. Configure a Segurança (Variáveis de Ambiente):
 Crie um arquivo chamado `.env` na raiz do projeto e insira a chave de acesso da API:
-
-```env
 API_KEY_SOMPO=12345678!
 
 Iniciando a Aplicação
