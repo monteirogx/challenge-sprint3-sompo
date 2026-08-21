@@ -6,7 +6,7 @@
 
 <br>
 
-# Sompo Predict - Prevenção de Quebra e Sobrecarga 
+# Sompo Predict 2.0 - Prevenção de Quebra e Sobrecarga 
 
 ## Grupo 49
 
