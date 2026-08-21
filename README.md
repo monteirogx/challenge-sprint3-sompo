@@ -85,15 +85,6 @@ Bash
 streamlit run src/dashboard.py
 (O painel abrirá automaticamente no navegador web em: http://localhost:8501)
 
-🗃 Histórico de lançamentos
-0.3.0 - 24/08/2026
-
-Sprint 3: Integração do MVP de ponta a ponta (Backend FastAPI, Banco SQLite, Orquestração do Motor Preditivo de quebras e Dashboard Streamlit).
-
-0.2.0 - 04/06/2026
-
-Sprint 2: Análise exploratória de dados mecânicos e desenvolvimento do algoritmo preditivo de quebra por sobrecarga.
-
 ## 🗃 Histórico de lançamentos
 
 * 0.2.0 - 21/08/2026
