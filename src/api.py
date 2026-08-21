@@ -12,7 +12,7 @@ CHAVE_SECRETA = os.getenv("API_KEY_SOMPO")
 app = FastAPI(title="Sompo Seguros - Prevenção de Quebra", version="3.0")
 
 # ==========================================
-# 1. O NOSSO "ESTOQUE" (BANCO DE DADOS)
+# 1. Banco de Dados
 # ==========================================
 def inicializar_banco():
     conexao = sqlite3.connect("sompo_telemetria_maquinas.db")
@@ -36,7 +36,7 @@ def inicializar_banco():
 inicializar_banco()
 
 # ==========================================
-# 2. O CONTRATO DE DADOS (Baseado no seu CSV)
+# 2. Contrato de Dados
 # ==========================================
 class TelemetriaMaquina(BaseModel):
     id_equipamento: str
@@ -46,7 +46,7 @@ class TelemetriaMaquina(BaseModel):
     temperatura_celsius: float
 
 # ==========================================
-# 3. O "CÉREBRO" (Seu modelo da Sprint 2)
+# 3. O "CÉREBRO" (modelo da Sprint 2)
 # ==========================================
 def prever_quebra(idade, horas, rpm, temp):
     # Regra lógica simulando a descoberta estatística da Sprint 2
