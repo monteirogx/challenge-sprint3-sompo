@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Dashboard Sompo - Manutenção", layout="wide")
 
-st.title("🚜 Sompo Seguros - Prevenção de Quebra de Maquinário")
+st.title("Sompo Seguros - Prevenção de Quebra de Maquinário")
 st.write("Monitoramento de sobrecarga e risco de quebra em tempo real (Sprint 3).")
 
 
@@ -22,7 +22,7 @@ def carregar_dados():
 df = carregar_dados()
 
 if df.empty:
-    st.info("Nenhum dado mecânico recebido. Use a API (Swagger) para enviar testes de temperatura e RPM.")
+    st.info("Nenhum dado mecânico recebido. Use a API para enviar testes de temperatura e RPM.")
 else:
     st.subheader("Visão Geral da Frota")
 
@@ -42,4 +42,4 @@ else:
                         'rpm_medio', 'temperatura_celsius', 'alerta_quebra', 'probabilidade_quebra']]
 
     # Destaca os dados na tela
-    st.dataframe(tabela_visual, use_container_width=True)
+    st.dataframe(tabela_visual, width='stretch')
