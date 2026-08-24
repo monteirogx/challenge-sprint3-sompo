@@ -29,6 +29,7 @@ Para mitigar esses riscos, foi desenvolvida uma solução de ponta a ponta na Sp
 O fluxo é orquestrado por um backend construído em Python (FastAPI), que aplica validações de contrato de dados e garante a segurança da informação exigindo autenticação via API Key (`x-api-key`). Ao receber as leituras, a API aciona o nosso Motor Preditivo de Machine Learning (desenvolvido na Sprint 2), que classifica o risco iminente de quebra e calcula a probabilidade de falha mecânica. 
 
 Os dados recebidos e os alertas gerados são imediatamente persistidos em um banco de dados relacional (SQLite), garantindo a rastreabilidade histórica essencial para auditorias de sinistro. Para o usuário final, o sistema fornece um Dashboard interativo desenvolvido em Streamlit, onde o gestor de frota da Sompo Seguros pode monitorar os equipamentos em tempo real e visualizar alertas críticos de parada iminente, possibilitando a intervenção antes que a quebra catastrófica ocorra.
+**Demonstração em Vídeo: https://youtu.be/S6jo-_VSpwY** 
 
 
 ## 📁 Estrutura de pastas
